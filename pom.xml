@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>RomanShaykhutdinov</groupId>
+  <groupId>Angelina</groupId>
   <artifactId>CRUD</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
@@ -16,7 +16,7 @@
           <version>3.2.0</version>
           <configuration>
             <warSourceDirectory>src/webapp</warSourceDirectory>
-            <warName>spring_mvc</warName>
+            <warName>CRUD</warName>
             <failOnMissingWebXml>false</failOnMissingWebXml>
           </configuration>
         </plugin>
@@ -33,7 +33,7 @@
         </configuration>
       </plugin>
     </plugins>
-    <finalName>Spring_MVC</finalName>
+    <finalName>CRUD</finalName>
   </build>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
