@@ -10,7 +10,7 @@ public interface DaoUser {
 
     User getUserById(long id);
 
-    void removeUserById(User user);
+    void deleteUserById(User user);
 
     List<User> getAllUsers();
 
