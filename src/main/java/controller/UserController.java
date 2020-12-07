@@ -52,7 +52,7 @@ public class UserController {
 
     @GetMapping("/delete")
     public String deleteUser(@ModelAttribute("user")User user){
-        serviceUser.removeUserById(user);
+        serviceUser.deleteUserById(user);
         return "redirect:/";
     }
 }
