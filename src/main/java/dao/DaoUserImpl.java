@@ -31,7 +31,7 @@ public class DaoUserImpl implements DaoUser {
 
     @Transactional
     @Override
-    public void removeUserById(User user) {
+    public void deleteUserById(User user) {
         entityManager.remove(entityManager.contains(user) ? user : entityManager.merge(user));
     }
 
