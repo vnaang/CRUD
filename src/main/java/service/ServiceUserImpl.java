@@ -31,7 +31,7 @@ public class ServiceUserImpl implements ServiceUser {
 
     @Transactional
     @Override
-    public void removeUserById(User user) {
+    public void deleteUserById(User user) {
         daoUser.removeUserById(user);
     }
 
